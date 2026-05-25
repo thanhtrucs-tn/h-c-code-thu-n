@@ -2,7 +2,7 @@ import './about.css';
 
 function About() {
   return (
-    <main className="about-main">
+    <main id="about" className="about-main">
       <div className="about-container">
         <h2>Về Chúng Tôi</h2>
         <p>Chào mừng bạn đến với trang web du lịch biển của chúng tôi. Chúng tôi tự hào mang đến cho bạn những trải nghiệm tuyệt vời nhất tại các vùng biển tuyệt đẹp với cát trắng, nắng vàng và làn nước trong xanh.</p>

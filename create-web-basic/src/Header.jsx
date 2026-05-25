@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './assets/css/Header.css';
 
 function Header() {
@@ -8,10 +9,10 @@ function Header() {
             {/* thanh điều hướng */}
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/about">About</Link></li>  {/* Sử dụng Link để điều hướng đến trang About mà không cần tải lại trang */}
+                    <li><Link to="/services">Services</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
                 </ul>
             </nav>
         </header>
