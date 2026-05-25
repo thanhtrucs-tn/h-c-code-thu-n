@@ -1,0 +1,21 @@
+.footer-bar {
+    background-color: #f28989;
+    color: #fff;
+    padding: 10px 0;
+}
+    .footer-content {
+        margin: 0 40px;
+    }
+
+        .footer-bar p {
+            margin: 0;
+            font-size: 16px;
+        }
+        .footer-links {
+            margin-top: 10px;
+        }
+        .footer-links a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
