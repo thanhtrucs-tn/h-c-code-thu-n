@@ -1,12 +1,13 @@
 
-import Header from './Header.jsx';
-import Footer from './footer.jsx';
-
+import Header from './Header';
+import Home from './Pages/Home';
+import Footer from './footer';
 
 function App() {
   return (
     <>
       <Header />
+      <Home />
       <Footer />
     </>
   );
