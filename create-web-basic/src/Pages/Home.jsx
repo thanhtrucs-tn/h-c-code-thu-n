@@ -1,4 +1,4 @@
-import './home.css';
+import '../assets/css/home.css';
 import { useState } from 'react';
 
 function Home() {
@@ -77,11 +77,10 @@ function Home() {
 
                 <li>
                     <label htmlFor="email">Email:</label>
-                    <input type="email" id="email"
-                            value={email}
-                            placeholder="Nhập email của bạn"
-                            value={email}
-                            onChange={(e) => {
+                        <input type="email" id="email"
+                          value={email}
+                          placeholder="Nhập email của bạn"
+                          onChange={(e) => {
                                 const value = e.target.value;
                                 if(value.length <= 50){
                                     setEmail(value);

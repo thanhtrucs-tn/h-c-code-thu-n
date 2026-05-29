@@ -5,6 +5,8 @@ import About from './Pages/About';
 import Services from './Pages/Services';
 import Contact from './Pages/Contact';
 import Footer from './footer';
+import Card from './Card';
+import Button from './Button/button';
 import { Routes, Route } from 'react-router-dom';
 import { Agentation } from "agentation";
 
@@ -18,8 +20,10 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Card />
+      <Button />
       <Footer />
-      {process.env.NODE_ENV === "development" && <Agentation />}
+      {import.meta.env.DEV && <Agentation />}
     </>
   );
 }
