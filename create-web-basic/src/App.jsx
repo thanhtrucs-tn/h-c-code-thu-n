@@ -7,6 +7,7 @@ import Contact from './Pages/Contact';
 import Footer from './footer';
 import Card from './Card';
 import Button from './Button/button';
+import Student from './Student';
 import { Routes, Route } from 'react-router-dom';
 import { Agentation } from "agentation";
 
@@ -22,6 +23,7 @@ function App() {
       </Routes>
       <Card />
       <Button />
+      <Student name="SpongeBob" age={25} isStudent={true} />
       <Footer />
       {import.meta.env.DEV && <Agentation />}
     </>
